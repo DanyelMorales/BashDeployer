@@ -1,0 +1,1 @@
+runcommand="sudo nohup java -jar "$destPath$sourceFile" "$dropwizardc" "$destPath"../"$dropwizardconfig
