@@ -1,9 +1,5 @@
 #!/bin/bash
-if [ -z "$CFG" ]; then 
-	source config/config.cfg
-else
-	source config/$CFG.cfg
-fi
+source lib/head.sh
 
 function uploadJ(){
 	echo "[+] UPLOADING "$sourceFile" TO SERVER";

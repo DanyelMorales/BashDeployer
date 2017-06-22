@@ -1,11 +1,6 @@
 #!/bin/bash
 
-if [ -z "$CFG" ]; then 
-	source config/config.cfg
-else
-	source config/$CFG.cfg
-fi
-
+source lib/head.sh
 source commands/renamejar.sh
 source commands/stopjar.sh
 #commands

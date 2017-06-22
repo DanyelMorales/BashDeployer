@@ -2,6 +2,11 @@
 #
 # @author Daniel Vera Morales <dvera at sunset.com.mx>
 #
+#----- FLUSHING CACHE
+source clean.sh
+source prehook.sh
+
+# ---------------
 source killjar.sh 
 source uploadjar.sh 
 source runjar.sh 
