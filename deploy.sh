@@ -1,16 +1,6 @@
-#!/bin/bash
-#
-# @author Daniel Vera Morales <dvera at sunset.com.mx>
-#
-#----- FLUSHING CACHE
-source clean.sh
-source prehook.sh
-
-# ---------------
-source killjar.sh 
-source uploadjar.sh 
-source runjar.sh 
-
+#/bin/bash
+export CFG=$1;
+source ./lib/main.sh
 # Stop Jar on Server then upload our new jar and finally run with nohup
 echo "============ DEPLOYING "$sourceFile" TO REMOTE->"$host;
 stopJ uploadJ;runJ;
