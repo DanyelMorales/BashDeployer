@@ -1,0 +1,1 @@
+runcommand="cd "$destPath";chmod 755  "$sourceFile";sudo plarx run -f  "$destPath"  -n "$kewyword
