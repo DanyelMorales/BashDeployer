@@ -1,6 +1,12 @@
 #!/bin/bash
 source lib/head.sh
 
+if [ -z "$nohupable" ] || [  "$nohupable" != 1  ]; then 
+	nohupable="";
+else
+	nohupable="nohup";	
+fi
+
 if [ -z "$runjar" ]; then 
 	source commands/runjar.sh
 else

@@ -1,1 +1,1 @@
-runcommand="cd "$destPath";chmod 755  "$sourceFile";sudo plarx run -f  "$destPath"  -n "$kewyword
+runcommand="cd "$destPath";sudo  "$nohupable"  /usr/sbin/Plar/plarx run -f  "$destPath"  -n "$kewyword
