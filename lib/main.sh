@@ -3,6 +3,7 @@
 #----- FLUSHING CACHE
 source clean.sh
 source prehook.sh
+source package.sh
 
 # ---------------
 source killjar.sh

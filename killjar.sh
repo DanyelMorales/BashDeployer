@@ -3,7 +3,7 @@ source lib/head.sh
 source commands/renamejar.sh
 source commands/stopjar.sh
 #commands
-commands=$renameCommand";"$killCommand"&&exit"
+commands=$renameCommand";"$killCommand
 function stopJ(){
 	echo "====================================";
 	echo "[+] STOPING CURRENT "$sourceFile" IN SERVER";

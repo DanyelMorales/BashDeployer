@@ -1,1 +1,1 @@
-runcommand="cd "$destPath"; sudo nohup java -Ddw.server.applicationConnectors[0].port="$dropwizardAppConnector" -Ddw.server.adminConnectors[0].port="$dropwizardAdminConnector" -jar "$sourceFile" "$dropwizardc" ../"$dropwizardconfig
+runcommand="cd "$destPath"; sudo "$nohupable" java -Ddw.server.applicationConnectors[0].port="$dropwizardAppConnector" -Ddw.server.adminConnectors[0].port="$dropwizardAdminConnector" -jar "$sourceFile" "$dropwizardc" ../"$dropwizardconfig
