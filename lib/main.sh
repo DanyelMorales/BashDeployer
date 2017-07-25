@@ -1,13 +1,13 @@
 #!/bin/bash
 #
 #----- FLUSHING CACHE
-source clean.sh
-source prehook.sh
-source package.sh
+source lib/mod/clean.sh
+source lib/mod/prehook.sh
+source lib/mod/package.sh
 
 # ---------------
-source killjar.sh
-source uploadjar.sh
-source runjar.sh
+source lib/mod/killjar.sh
+source lib/mod/uploadjar.sh
+source lib/mod/runjar.sh
 
 # ---------
