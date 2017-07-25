@@ -7,11 +7,14 @@ echo  "[*] DEPLOYING"$sourceFile" TO REMOTE->"$host;
 
 
 if [[ -z "$operations" ]]; then
-	tasks=();
+	tasks=("stop" "upload" "run");
 else
 	tasks=${operations[@]};
 fi
 
-loadOperations ${tasks[@]};
+for task in ${tasks[@]}; do
+	$task"J";
+done;
+
 echo "============ DEPLOY SUCCESSFUL OF "$sourceFile;
 echo "====================================";
