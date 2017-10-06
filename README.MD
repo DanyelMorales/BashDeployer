@@ -12,14 +12,14 @@ Es necesario configurar las conexiones de la herramienta para ello es necesario 
 #!/bin/bash
 # CONNECTION
 port="9510"
-user="usuario"
-host="10.194.21.232"
+user="dapson"
+host="127.0.0.1"
 
 # JAR TO DEPLOY
-sourcePath="/C/Users/Sistemas/Desarrollo/Marketing/git/marketing/target/"
-sourceFile="crm4marketingsunset-1.0-SNAPSHOT.one-jar.jar"
-destPath="/opt/crm-4-marketing-sunset/target/"
-kewyword="crm"
+sourcePath="/C/Users/DAPSON/projects/anyproj/target/"
+sourceFile="anyproj.jar"
+destPath="/opt/anyproj/target/"
+kewyword="anyproj"
 
 # dropwizard commands
 dropwizardc="server"
